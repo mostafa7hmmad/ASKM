@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import time
 
-API_URL = "http://localhost:8000/ask"
+API_URL = "https://coky-unsown-maryanna.ngrok-free.dev/ask"
 
 st.set_page_config(page_title="Islamic RAG", layout="wide")
 st.title("📚 Islamic RAG Assistant (Streaming Simulation)")
@@ -40,3 +40,4 @@ if st.button("Ask") and query:
 
         except Exception as e:
             st.error(f"Connection Error: {e}")
+
