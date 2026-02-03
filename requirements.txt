@@ -1,0 +1,12 @@
+langchain
+langchain-community
+langchain-core
+langchain-google-genai
+langchain-chroma
+fastapi
+uvicorn
+pydantic
+python-dotenv
+streamlit
+requests
+rank_bm25
