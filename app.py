@@ -3,7 +3,7 @@ import requests
 import json
 import uuid
 
-API_URL = "http://localhost:8000/ask"
+API_URL="https://coky-unsown-maryanna.ngrok-free.dev"
 
 st.set_page_config(page_title="IAM Dawah Assistant", layout="wide")
 
@@ -62,4 +62,5 @@ if prompt := st.chat_input("Ask a question..."):
         # --- LOADING ICON END ---
 
         placeholder.markdown(full_text)
+
         st.session_state.messages.append({"role": "assistant", "content": full_text})
